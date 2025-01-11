@@ -35,14 +35,14 @@
 }
 /* banner setion */
 #header .banner-container{
-    width: 1600px;
+    width: 1280px;
     height: 560px;
     background-color: #C6E4D6;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 160px 80px auto;
+    margin: 0 auto 80px auto;
     border-radius: 24px;
     gap: 64px;
 }
@@ -169,4 +169,35 @@
 }
 .btn-color3{
     background-color: #FFC239;
+}
+/* yunus section */
+.yunus-container{
+    width: 1280px;
+    height: 240px;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px ;
+    background-position-y: 24px;   
+}
+.yunus-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.yunus-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.yunus-subtitle{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
